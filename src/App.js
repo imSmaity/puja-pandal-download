@@ -14,7 +14,6 @@ function App() {
         <a
           className="App-link"
           href="puja_pandal.apk"
-          target="_blank"
           rel="noopener noreferrer"
         >
           <button style={{ width: '200px', padding: '15px', fontSize: '22px' }}>
