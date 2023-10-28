@@ -1,8 +1,14 @@
+import { Link } from 'react-router-dom'
 import './App.css'
 
-function App() {
+function Home() {
   return (
     <div className="App">
+      <div className="docs">
+        <Link className="docs-name" to={'/docs'}>
+          Docs
+        </Link>
+      </div>
       <header className="App-header">
         <img src="maaa.png" alt="..." style={{ width: '10%', height: '10%' }} />
         <h1>শারদীয়া দুর্গাপূজা ২০২৩</h1>
@@ -25,4 +31,4 @@ function App() {
   )
 }
 
-export default App
+export default Home
