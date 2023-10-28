@@ -4,8 +4,15 @@ import './App.css'
 function Home() {
   return (
     <div className="App">
-      <div className="docs">
-        <Link className="docs-name" to={'/docs'}>
+      <div
+        className="docs"
+        style={{ margin: '10px', display: 'flex', justifyContent: 'flex-end' }}
+      >
+        <Link
+          className="docs-name"
+          to={'/docs'}
+          style={{ fontSize: '24px', color: '#000000', textAlign: 'start' }}
+        >
           Docs
         </Link>
       </div>
